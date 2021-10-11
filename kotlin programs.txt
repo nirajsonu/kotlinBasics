@@ -2,21 +2,21 @@ Kotlin programs
 -------------------
 semicolon is optional in kotlin.
 
-fun main(args: Array<String>) {
+1) fun main(args: Array<String>) {
     //println for print value to console with new line
     println("Kotlin is easy for java developers")
     //For print with same line
     print("only syntax is different concepts are same with java")
 }
 
-var keyword is introduced in kotlin for assigning any value to variable type is automatically detect by kotlin language.We reassign value which keyword declared in var
-val do the same thing except we cannot reassign the value if we do get compile time exception(Val cannot be reassigned).
+//var keyword is introduced in kotlin for assigning any value to variable type is automittically detect by kotlin language.We reassign value which keyword declared in var
 
-fun main(args: Array<String>) {
+//val do the same thing except we cannot reassign the value if we do get compile time exception(Val cannot be reassigned).
+2) fun main(args: Array<String>) {
     var year=2010
     var version=1.0
     var langauge_made_by="jetbrain"
     println("this language is made by "+langauge_made_by+"in "+year +"and the first version is "+version)
 }
 
-
+3)
