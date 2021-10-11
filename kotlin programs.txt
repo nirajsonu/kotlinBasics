@@ -1,0 +1,15 @@
+Kotlin programs
+-------------------
+fun main(args: Array<String>) {
+    //println for print value to console with new line
+    println("Kotlin is easy for java developers")
+    //For print with same line
+    print("only syntax is different concepts are same with java")
+}
+
+fun main(args: Array<String>) {
+    var year=2010
+    var version=1.0
+    var langauge_made_by="jetbrain"
+    println("this language is made by "+langauge_made_by+"in "+year +"and the first version is "+version)
+}
