@@ -9,13 +9,14 @@ fun main(args: Array<String>) {
     print("only syntax is different concepts are same with java")
 }
 
-//var keyword is introduced in kotlin for assigning any value to variable type is automatically detect by kotlin language.We reassign value which keyword declared in var
+var keyword is introduced in kotlin for assigning any value to variable type is automatically detect by kotlin language.We reassign value which keyword declared in var
+val do the same thing except we cannot reassign the value if we do get compile time exception(Val cannot be reassigned).
 
-//val do the same thing except we cannot reassign the value if we do get compile time exception(Val cannot be reassigned).
 fun main(args: Array<String>) {
     var year=2010
     var version=1.0
     var langauge_made_by="jetbrain"
     println("this language is made by "+langauge_made_by+"in "+year +"and the first version is "+version)
 }
+
 
