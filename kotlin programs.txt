@@ -19,4 +19,17 @@ semicolon is optional in kotlin.
     println("this language is made by "+langauge_made_by+"in "+year +"and the first version is "+version)
 }
 
-3)
+//Koltin does not support primite data type everything in kotlin is class
+3)fun main(args: Array<String>) {
+var integer:Int=10
+    var string:String="Kotlin with datatypes"
+    var double:Double=1.2
+    var float:Float=1.5f
+    var long:Long=1L
+    var boolean:Boolean=true
+    println(string)
+    println(double)
+    println(float)
+    println(long)
+    println(boolean)
+}
