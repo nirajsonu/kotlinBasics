@@ -33,3 +33,81 @@ var integer:Int=10
     println(long)
     println(boolean)
 }
+
+4)import java.util.*
+
+fun main(args: Array<String>) {
+    print("++++++++++++++++++++++++++++++++++++")
+
+    var intArray:IntArray= intArrayOf(1,2,3,4,5,6)
+    for(i in intArray)
+    {
+        print("\nintArray-->"+i+"\n")
+    }
+    println(intArray.indices)
+
+    print("++++++++++++++++++++++++++++++++++++")
+
+    var char:CharArray= charArrayOf('a', 'b','c','d','e','f','g')
+    for(i in char)
+    {
+        print("\nCharArray-->"+i+"\n")
+    }
+    println(char.indices)
+
+    print("++++++++++++++++++++++++++++++++++++")
+
+    var stringArray= arrayOf("hello","i","am","Neeraj")
+    for(i in stringArray)
+    {
+        print("\nStringArray-->"+i+"\n")
+    }
+    println(stringArray.indices)
+
+    print("++++++++++++++++++++++++++++++++++++")
+
+    var doubleArray=doubleArrayOf(123344.0,33444.4,4444.5)
+    for(i in doubleArray)
+    {
+        print("\nDoubleArray-->"+i+"\n")
+    }
+    println(doubleArray.indices)
+
+    print("++++++++++++++++++++++++++++++++++++")
+
+    var floatArray= floatArrayOf(1.2f,1.5f,5.6f)
+    for(i in floatArray)
+    {
+        print("\nFloatArray-->"+i+"\n")
+    }
+    println(floatArray.indices)
+    print("++++++++++++++++++++++++++++++++++++")
+
+    var byteArray= byteArrayOf(1,3,4,127)
+    for(i in byteArray)
+    {
+        print("\nByteArray-->"+i+"\n")
+    }
+    println(byteArray.indices)
+
+    print("++++++++++++++++++++++++++++++++++++")
+
+    var booleanArray= booleanArrayOf(true,false)
+    for(i in booleanArray)
+    {
+        print("\nBooleanArray-->"+i+"\n")
+    }
+    println(booleanArray.indices)
+
+    print("++++++++++++++++++++++++++++++++++++")
+
+    var shotArray= shortArrayOf(1,23,45)
+    for(i in shotArray)
+    {
+        print("\nShortArray-->"+i+"\n")
+    }
+    println(shotArray.indices)
+}
+
+
+
