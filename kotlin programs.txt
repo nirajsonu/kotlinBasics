@@ -109,5 +109,13 @@ fun main(args: Array<String>) {
     println(shotArray.indices)
 }
 
+5) fun main(args: Array<String>) {
+ var x =  Area(10,5)
+    print(x)
+}
 
+fun Area(lenght:Int,breath:Int) :Int
+{
+    return lenght*breath;
+}
 
