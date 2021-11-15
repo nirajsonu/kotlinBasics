@@ -34,6 +34,8 @@ var integer:Int=10
     println(boolean)
 }
 
+
+//for loop with Arrays
 4)import java.util.*
 
 fun main(args: Array<String>) {
@@ -109,6 +111,7 @@ fun main(args: Array<String>) {
     println(shotArray.indices)
 }
 
+//simple fucntion program
 5) fun main(args: Array<String>) {
  var x =  Area(10,5)
     print(x)
