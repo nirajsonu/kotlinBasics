@@ -152,3 +152,10 @@ override fun m1()
     }
 }
 
+//Data Class
+8>data class Student(var name:String,var city:String,var mobile:Long)
+var s=Student("Neeraj","Jaipur",7549046724)
+    println(s)
+    println(s.mobile)
+    println(s.city)
+    println(s.name)
