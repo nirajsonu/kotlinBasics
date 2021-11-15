@@ -161,3 +161,23 @@ var s=Student("Neeraj","Jaipur",7549046724)
     println(s.name)
 
 
+//When statement similar to switch case in java
+9>fun main(args: Array<String>) {
+    println("Enter your choice between 1 to 7")
+var days = Integer.valueOf(readLine())
+    var day_name=when(days)
+    {
+        1->"SunDay"
+        2->"MonDay"
+        3->"TuesDay"
+        4->"WebNesDay"
+        5->"Thursday"
+        6->"Friday"
+        7->"Saturday"
+        else ->"No days founded.."
+    }
+    println("your day is $day_name")
+}
+
+
+
