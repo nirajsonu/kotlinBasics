@@ -159,3 +159,5 @@ var s=Student("Neeraj","Jaipur",7549046724)
     println(s.mobile)
     println(s.city)
     println(s.name)
+
+
