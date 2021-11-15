@@ -119,3 +119,14 @@ fun Area(lenght:Int,breath:Int) :Int
     return lenght*breath;
 }
 
+//taking input in kotlin
+6>  import java.util.*
+
+fun main(args: Array<String>) {
+    println("Enter the two numbers")
+    var y:Int=Integer.valueOf(readLine())
+    var z:Int=Integer.valueOf(readLine())
+    println(y+z)
+}
+
+
