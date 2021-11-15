@@ -132,4 +132,23 @@ fun main(args: Array<String>) {
     println(y+z)
 }
 
+//overriding
+7>open class Student {
+    var a:String="student class member variable"
+    open fun m1()
+    {
+        println("student class")
+    }
+}
+class Teacher: Student()
+{
+override fun m1()
+    {
+    println("Teacher class")
+}
+    fun m2()
+    {
+        println("This is m2 method from teacher class")
+    }
+}
 
