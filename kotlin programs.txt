@@ -1,6 +1,6 @@
 Kotlin programs
 -------------------
-semicolon is optional in kotlin.
+<b>semicolon is optional in kotlin.
 
 1) fun main(args: Array<String>) {
     //println for print value to console with new line
@@ -128,5 +128,5 @@ fun main(args: Array<String>) {
     var z:Int=Integer.valueOf(readLine())
     println(y+z)
 }
-
+</b>
 
