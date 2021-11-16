@@ -179,5 +179,22 @@ var days = Integer.valueOf(readLine())
     println("your day is $day_name")
 }
 
+//When with multiple cases it ran upmost matched records
+10>fun main(args: Array<String>) {
+var x=2
+    when(x)
+    {
+        in 1..5 -> {
+            println("Hello 1-5")
+        }
+        2->{
+            println("Hi")
+        }
 
+        in 1..10->
+        {
+            println("Hello 1-10")
+        }
+    }
+}
 
