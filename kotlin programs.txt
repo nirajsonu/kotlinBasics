@@ -228,3 +228,13 @@ val s=Student.x
     print(s)
 }
 
+14>companion object
+class Student {
+    companion object {
+        const val y=123
+    }
+}
+fun main(args: Array<String>) {
+    println(Student.y)
+}
+
