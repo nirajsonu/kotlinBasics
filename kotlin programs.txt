@@ -218,3 +218,13 @@ var s=Student()
     println(s.m1())
     println(s.z)
 }
+13>Static class
+object Student {
+    val x="Hello world"
+}
+
+fun main(args: Array<String>) {
+val s=Student.x
+    print(s)
+}
+
