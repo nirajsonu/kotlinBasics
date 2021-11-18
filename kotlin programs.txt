@@ -258,3 +258,18 @@ fun main(args: Array<String>) {
     println("Breath of Rectangle is = ${s.y}")
     println("Area of Rectangle is = ${s.y* s.x}")
 }
+
+17>Named parameters
+
+class Student {
+fun m1(name:String,city:String):String
+{
+    return name+city
+}
+}
+
+fun main(args: Array<String>) {
+   var s=Student();
+ println(s.m1(name = "Neeraj ",city = " Ranchi"))
+ println(s.m1("Sandip ", " Patna"))
+}
