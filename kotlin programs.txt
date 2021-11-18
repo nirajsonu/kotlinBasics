@@ -220,7 +220,7 @@ var s=Student()
 }
 13>Static class
 object Student {
-    val x="Hello world"
+    const val x="Hello world"
 }
 
 fun main(args: Array<String>) {
