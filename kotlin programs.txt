@@ -203,3 +203,18 @@ var x=2
     return "World"
 }
 
+//getting the objects
+12>class Student (var x:String="hello")
+{
+    var z="student"
+fun m1() :String{
+    //var y="World"
+    return "World"
+}
+}
+fun main(args: Array<String>) {
+var s=Student()
+    println(s.x)
+    println(s.m1())
+    println(s.z)
+}
