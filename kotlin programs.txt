@@ -244,7 +244,7 @@ fun main(args: Array<String>) {
     print("my name is $name")
 }
 
-16>Constuctor
+16>Constuctor with initilization
 class Student {
 var x:Int=0
     var y:Int=0
