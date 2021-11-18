@@ -238,3 +238,8 @@ fun main(args: Array<String>) {
     println(Student.y)
 }
 
+15>String Templates
+fun main(args: Array<String>) {
+    var name="Neeraj"
+    print("my name is $name")
+}
