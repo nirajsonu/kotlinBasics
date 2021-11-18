@@ -243,3 +243,18 @@ fun main(args: Array<String>) {
     var name="Neeraj"
     print("my name is $name")
 }
+
+16>Constuctor
+class Student {
+var x:Int=0
+    var y:Int=0
+}
+
+fun main(args: Array<String>) {
+   var s=Student()
+    s.x=10
+    s.y=15
+    println("Length of Rectangle is = ${s.x}")
+    println("Breath of Rectangle is = ${s.y}")
+    println("Area of Rectangle is = ${s.y* s.x}")
+}
