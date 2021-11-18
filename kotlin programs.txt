@@ -198,6 +198,8 @@ var x=2
     }
 }
 
+//Function with return type
 11>fun m1() :String{
     return "World"
 }
+
