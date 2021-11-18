@@ -260,7 +260,6 @@ fun main(args: Array<String>) {
 }
 
 17>Named parameters
-
 class Student {
 fun m1(name:String,city:String):String
 {
