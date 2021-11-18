@@ -272,3 +272,21 @@ fun main(args: Array<String>) {
  println(s.m1(name = "Neeraj ",city = " Ranchi"))
  println(s.m1("Sandip ", " Patna"))
 }
+
+18>SingleTon class
+import Singleton.variableName
+
+fun main(args: Array<String>) {
+println(variableName)
+}
+object Singleton{
+    var variableName="I am var"
+    init {
+        println("Singleton class invoked.")
+    }
+    init {
+        println("Initialization invoked.")
+    }
+  
+}
+
