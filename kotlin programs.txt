@@ -318,4 +318,17 @@ object Singleton{
 
 }
 
+21>fun main(args:Array<String>)
+{
+    val planetPostion=6
+    var message:String?
+
+    message=when(planetPostion){
+        0->"Sun"
+        in 1..4->"The inner planet"
+        in 6..8->"The outer planet"
+        else->"I am not getting what do you want..."
+    }
+    print(message)
+}
 
