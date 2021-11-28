@@ -307,4 +307,15 @@ object Singleton{
     println(num6)
 }
 
+20>fun main(args:Array<String>)
+{
+  var sampleString:String?="unknown Length"
+   // sampleString=null
+
+    //?: elvis operator is used for check null and if null found then given options to handle null
+    val stringLength:Any=sampleString?.length ?:"unknown length"
+    print(stringLength)
+
+}
+
 
