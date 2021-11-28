@@ -332,3 +332,37 @@ object Singleton{
     print(message)
 }
 
+22>fun main(args:Array<String>)
+{
+    println("simple Range operator(..)")
+  for(i in 1..10)
+  {
+      print("$i\t")
+  }
+    println()
+    println("rangeTo keyword")
+    for(i in 1.rangeTo(10))
+    {
+        print("$i\t")
+    }
+    println()
+    println("downTo keyword")
+    for(i in 10 downTo 1)
+    {
+        print("$i\t")
+    }
+    println()
+    println("until and step keyword")
+    for(i in 10 until 20 step 2)
+    {
+        print("$i\t")
+    }
+    println()
+    println("iterate array")
+    val sampleArray=arrayOf(34,23,54 ,65,67,76)
+    for(number in sampleArray)
+    {
+        print("$number\t")
+    }
+}
+
