@@ -290,3 +290,21 @@ object Singleton{
   
 }
 
+19>fun main(args:Array<String>)
+{
+    var myNumber: Double = 6.0
+    var num1=myNumber.toInt()
+    var num2=myNumber.toString()
+    var num3=myNumber.toChar()
+    var num4=myNumber.toFloat()
+    var num5=myNumber.toBigDecimal()
+    var num6=myNumber.toUInt()
+    println(num1)
+    println(num2)
+    println(num3)
+    println(num4)
+    println(num5)
+    println(num6)
+}
+
+
