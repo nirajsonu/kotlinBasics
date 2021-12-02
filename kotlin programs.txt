@@ -397,4 +397,21 @@ val me:Student=PostDoctorateStudent()
     }
 }
 
+//Extension function are those function that is useful to add extra functionlity with existing class without inherate them
+24>class Student {
+
+}
+
+fun Student.new(){
+    print("Hello world")
+}
+
+fun main(args:Array<String>)
+{
+//removeZeroes(10)
+    val s=Student()
+    s.new()
+}
+
+
 
