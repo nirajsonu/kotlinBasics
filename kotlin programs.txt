@@ -397,7 +397,7 @@ val me:Student=PostDoctorateStudent()
     }
 }
 
-//Extension function are those function that is useful to add extra functionlity with existing class without inherate them
+//Extension function are those function that is useful to add extra functionlity with existing class without inherits them
 24>class Student {
 
 }
