@@ -413,5 +413,23 @@ fun main(args:Array<String>)
     s.new()
 }
 
+25>Json Read through GSON
+fun main(args:Array<String>)
+{
+//removeZeroes(10)
+   /* val s=Student()
+    s.new()*/
+
+   val json="""{
+    "id": "1",
+    "employee_name": "Jack Full",
+    "employee_salary": "300800",
+    "employee_age": "61"
+}"""
+    val gson = Gson()
 
 
+    var tutorialMap: Map<String, Any> = gson.fromJson(json, object : TypeToken<Map<String, Any>>() {}.type)
+    tutorialMap.forEach { println(it) }
+
+}
