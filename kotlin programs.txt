@@ -433,3 +433,19 @@ fun main(args:Array<String>)
     tutorialMap.forEach { println(it) }
 
 }
+
+//Exception handling
+26>fun main(args:Array<String>)
+{
+    try{
+        var num=10/0
+    }catch (e:ArithmeticException)
+    {
+        print("Cannot divide by 0\n")
+    }
+    finally {
+        print("because it makes infinity")
+    }
+
+}
+
