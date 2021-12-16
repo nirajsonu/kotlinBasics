@@ -1,0 +1,213 @@
+//keyword in kotlin
+
+    //as keyword is use to cast one object to another object
+    //as also use to aliasing also
+    //as? is used to safe type cast
+
+
+
+
+    //is keyword to check object type similar to IntanceOf Operator in java
+
+
+    //break for break the statement
+
+    //class for defining a class
+
+    //countinue skip the current position and continue with the next iteration
+
+    //do for defining the do while loop
+
+    //else used in if-else and when case
+
+    //for used in for loop
+
+    //fun for defining the function
+
+    //if for condition expression
+
+    //in to provide the Range of the loop
+
+    //interface used to define the interface
+
+    //null to define the null value
+
+    //object used to define the static methods
+
+    //package is used to making the package
+
+    //return is used to return any value or expression
+
+    //super is used to call super class variable and methods.
+
+
+    //this is used to refer the current objects.
+
+    //throw is used to create the custom Exception messages
+
+    //true is a boolean true
+
+    //try is used in exception handling with catch block
+
+    //typealias to given shorter name of generics and function(alternative names for existing types)
+
+
+    //typeof
+
+    //val is used to declare variable final immutable
+
+    //var is used to declare variable mutable
+
+    //when is for multiple case similar to switch
+
+    //while is used for conditional loop
+
+    //by is used with lazy keyword( by lazy for lazy loading properties.) provided by
+
+    //catch is used for handle the Exception
+
+    //constructor is used for making secondary constructor
+
+    //delegate
+
+    //dynamic
+
+    //filed
+
+    //file
+
+    //finally, is for exception handing clean up code or final statement
+
+    //get
+
+    //import is used to import any class
+
+    //init for making init block that run before the Constructor
+
+
+    //param
+
+    //property
+
+    //reciver
+
+    //set
+
+
+
+    //setparam
+    //Kotlin provides us with nine different Annotation use-site targets
+    //@get ,@set ,@file ,@param ,@field ,@setparam ,@receiver ,@property ,@delegate
+    //(https://americanexpress.io/advanced-kotlin-use-site-targets/)
+
+
+
+
+
+
+    //value
+
+    //where used in generics
+    //instance of wildcards in java kotlin have declaration-site variance and type projections.(in,out,where)
+    // parameter needs more than one upper bound, you need a separate where -clause:
+
+
+    //****Modifier Keyword************//
+
+//actual used for multiplatform projects
+
+//abastract is used for
+
+//annotation
+
+    //companion is used for making static class
+
+
+    //const to make variable as constants
+
+
+    //crossinline
+
+
+    //data for making class as data class no need getter and setter methods
+    data class Student(var name:String,var age:Int)
+
+
+    //enum for making named constants
+    /*enum class Student{
+        Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,
+    }*/
+
+
+    //except for multipurpose projects
+
+
+    //external which method not developed in kotlin wants to call in kotlin then used external keyword(JNI or javaScript related method)
+
+
+
+    //final
+
+
+    //infix make user define infix function
+
+
+
+    //inner to declare class as inner class
+
+
+    //internal visible to the current module
+
+
+    //lateinit to declare variable and initialized later
+
+
+    //noinline lambdas passed to an inline function to be inlined,
+
+
+    //open for overriding parent class to base class
+
+
+    //operator for operator overloading used operator keyword
+
+
+    //out marks a type parameter as covariant.
+
+
+
+    //override for override any method form parent class
+
+
+    //private same class access
+
+
+    //protected current class+subclasses
+
+
+    //public anywhere accessed within the package and also other packages
+
+
+    //reifield
+
+
+    //sealed used to make sealed class((a class with restricted subclassing)
+
+
+    //suspend for calling co routine async
+
+
+    //tailrec tailrec optimizes functions where there is tail recursion
+
+
+    //vararg to pass parameters any number.
+
+
+//it for iterating though objects
+//providing functional method parameter then it used
+    /*(Int)->Unit*/
+    /*Int.()->Unit*/
+
+
+//providing object to callback then this is used
+
+
