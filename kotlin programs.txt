@@ -449,3 +449,57 @@ fun main(args:Array<String>)
 
 }
 
+27>interface Student{
+    fun study()
+    fun play()
+}
+
+class College:Student{
+    override fun study() {
+        println("Student is studying kotlin")
+    }
+
+    override fun play() {
+      println("Student is playing cricket")
+    }
+
+}
+
+fun main(args: Array<String>) {
+val college=College()
+    college.study()
+    college.play()
+}
+
+28)kotlin:Nested class,Java:Static Nested class
+	class outer{
+     class nested{
+        var name="Neeraj"
+       public fun m1(){
+            println("nested inner class")
+        }
+    }
+}
+
+fun main(args: Array<String>) {
+outer.nested().m1()
+    print(outer.nested().name)
+}
+
+
+
+kotlin:Non static nested class:Java:Non-static nested class.
+ class outer{
+     inner class nested{
+        var name="Neeraj"
+       public fun m1(){
+            println("nested inner class")
+        }
+    }
+}
+
+fun main(args: Array<String>) {
+val inner=outer().nested().name
+    println(inner)
+}
+
