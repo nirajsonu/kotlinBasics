@@ -513,3 +513,13 @@ fun sumOfNaturalNumbers(number:Int):Int{
     return sum
 }
 
+
+//Extension functions with usage
+fun main() {
+  val s=Student().print()
+}
+
+fun Student.print(){
+    println("Student object is created........")
+}
+
