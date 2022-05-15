@@ -503,4 +503,13 @@ val inner=outer().nested().name
     println(inner)
 }
 
+//Functions with Return value
+fun main() {
+  println(sumOfNaturalNumbers(10))
+}
+
+fun sumOfNaturalNumbers(number:Int):Int{
+    var sum=number*(number+1)
+    return sum
+}
 
