@@ -523,3 +523,16 @@ fun Student.print(){
     println("Student object is created........")
 }
 
+class and objects
+----------------------
+13>fun main() {
+val r=Rectangle(12,15).parameter
+val p=Rectangle(10,20)
+println("Area of rectangle is $r")
+println("Area of rectangle is ${p.parameter}")
+}
+
+
+class Rectangle(var length:Int,var width:Int){
+    var parameter=2*(length*width)
+}
