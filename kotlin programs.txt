@@ -536,3 +536,22 @@ println("Area of rectangle is ${p.parameter}")
 class Rectangle(var length:Int,var width:Int){
     var parameter=2*(length*width)
 }
+
+Check String is palimdrom or not
+------------------------------
+fun main(){
+    val x=pallimdrom("lol")
+    if(x){
+        println("it is a palimdrom number")
+    }
+    else{
+        println("It is not a palimdrom number")
+    }
+    
+}
+
+fun pallimdrom(text:String):Boolean{
+    val sb=StringBuffer(text).reverse().toString()    
+    return text.equals(sb,ignoreCase=true)
+}
+
