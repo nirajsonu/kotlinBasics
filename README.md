@@ -45,7 +45,7 @@ fun bubbleSort(elements:IntArray){
 
  
 
-2) Searching Any Elements 
+2) Searching Any Elements<br>
 fun main() { 
 
   var arrayOfElements=intArrayOf(1,12,4,3,20,6) 
