@@ -99,9 +99,10 @@ fun serachElements(elements:IntArray,searchItem:Int){
         } 
   
   
-  3) fun stringReverse(text:String){
+  3) <code>fun stringReverse(text:String){
     var splitedString=text.split(" ")[0]
     for(i in splitedString.length-1 downTo 0){
         print(splitedString[i])
     }
 }
+  </code>
