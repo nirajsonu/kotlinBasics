@@ -1,6 +1,6 @@
 # kotlin Practice programs
 
-<B>Bubble Sort<B>
+<B>Bubble Sort<br><B>
   fun main() { 
 
   var arrayOfElements=intArrayOf(1,12,4,3,20,6) 
