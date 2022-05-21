@@ -42,3 +42,59 @@ fun bubbleSort(elements:IntArray){
     } 
 
 } 
+
+ 
+
+2) Searching Any Elements 
+fun main() { 
+
+  var arrayOfElements=intArrayOf(1,12,4,3,20,6) 
+
+  serachElements(arrayOfElements,245) 
+
+} 
+
+ 
+
+fun serachElements(elements:IntArray,searchItem:Int){ 
+
+   var lenght=elements.size 
+
+   var isFound=false 
+
+     
+
+        for(i in 0 until lenght) 
+
+        { 
+
+            if(elements[i] == searchItem){ 
+
+                isFound=true 
+
+            } 
+
+            else{ 
+
+               // isFound=false 
+
+            } 
+
+        } 
+
+         
+
+        if(isFound){ 
+
+            print("element is found....") 
+
+        } 
+
+        else{ 
+
+            print("element is not found.......") 
+
+        } 
+
+        } 
+  
