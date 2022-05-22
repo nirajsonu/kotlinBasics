@@ -555,3 +555,19 @@ fun pallimdrom(text:String):Boolean{
     return text.equals(sb,ignoreCase=true)
 }
 
+=== is used to check weather a object is ponited to same object or not
+  var s=Student(10)
+  var s1=Student(10)
+  var s2=s1
+  if(s2===s1){
+      print("true")
+  }
+  else{
+      print("false")
+  }
+  
+  class Student(age:Int){
+    
+}
+
+
