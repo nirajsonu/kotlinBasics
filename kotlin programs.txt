@@ -571,3 +571,22 @@ fun pallimdrom(text:String):Boolean{
 }
 
 
+== is to object content are same or not
+
+
+  var s=Student(10)
+  var s1=Student(10)
+  var s2=s1
+  if(s2==s1){  //s2.equals(s1)
+      print("true")
+  }
+  else{
+      print("false")
+  }
+}
+
+
+class Student(age:Int){
+    
+}
+
