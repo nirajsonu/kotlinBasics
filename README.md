@@ -108,20 +108,20 @@ fun serachElements(elements:IntArray,searchItem:Int){
   }</pre> </code>
   
   
-  <b>Sum of even numbers in array </b>
- fun main() {
-  var arrayOfElements=intArrayOf(1,12,4,3,20,6,4,5)
-  addEvenPostionElements(arrayOfElements)
+  <b>Sum of even numbers in array </b><br>
+ fun main() {  <br>
+  var arrayOfElements=intArrayOf(1,12,4,3,20,6,4,5)<br>
+  addEvenPostionElements(arrayOfElements)<br>
 }
 
 
-fun addEvenPostionElements(arr:IntArray)
-{
-    var sum=0
-    for(i in 0 until arr.size){
+fun addEvenPostionElements(arr:IntArray)<br>
+{<br>
+    var sum=0<br>
+    for(i in 0 until arr.size){<br>
         if(arr[i]%2==0){
            sum =sum+arr[i] 
-        }
+        }<br>
         
     }
    print(sum)
