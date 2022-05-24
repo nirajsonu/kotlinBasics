@@ -98,7 +98,7 @@ fun serachElements(elements:IntArray,searchItem:Int){
 
         } 
   
- <b> String Reverse</b>
+ <b> String each word Reverse</b>
   <code><pre>fun stringReverse(sentences:String){ 
     var sentences="My is neeraj kumar keshri" 
         var splitedSentences=sentences.split(" ") 
