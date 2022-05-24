@@ -98,7 +98,7 @@ fun serachElements(elements:IntArray,searchItem:Int){
 
         } 
   
- <b> String each word Reverse</b>
+ <b> 3) String each word Reverse</b>
   <code><pre>fun stringReverse(sentences:String){ 
     var sentences="My is neeraj kumar keshri" 
         var splitedSentences=sentences.split(" ") 
@@ -108,7 +108,7 @@ fun serachElements(elements:IntArray,searchItem:Int){
   }</pre> </code>
   
   
-  <b>Sum of even numbers in array </b><br>
+  <b> 4) Sum of even numbers in array </b><br>
  fun main() {  <br>
   var arrayOfElements=intArrayOf(1,12,4,3,20,6,4,5)<br>
   addEvenPostionElements(arrayOfElements)<br>
